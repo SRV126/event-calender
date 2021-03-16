@@ -209,8 +209,7 @@ return [
         'Gate'         => Illuminate\Support\Facades\Gate::class,
         'Hash'         => Illuminate\Support\Facades\Hash::class,
         'Lang'         => Illuminate\Support\Facades\Lang::class,
-        'Log'          => Illuminate\Support\Facades\Log::class,
-        'Mail'         => Illuminate\Support\Facades\Mail::class,
+         'Mail'         => Illuminate\Support\Facades\Mail::class,
         'Notification' => Illuminate\Support\Facades\Notification::class,
         'Password'     => Illuminate\Support\Facades\Password::class,
         'Queue'        => Illuminate\Support\Facades\Queue::class,
@@ -227,6 +226,8 @@ return [
         'Validator'    => Illuminate\Support\Facades\Validator::class,
         'View'         => Illuminate\Support\Facades\View::class,
         'Bugsnag'      => Bugsnag\BugsnagLaravel\Facades\Bugsnag::class,
+        'log’          => 'errorlog’,
+       
 
     ],
 
